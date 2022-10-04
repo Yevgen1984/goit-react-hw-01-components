@@ -1,16 +1,15 @@
+import {UserCard} from './Profile/UserCard';
+import user from './Profile/user.json';
+import {StatisticDate} from './Statistics/data';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <> 
+    
+    <UserCard firstUser = {user}/>; 
+    <StatisticDate statisticDate = {data}/>  
+
+       </>
   );
 };
+
