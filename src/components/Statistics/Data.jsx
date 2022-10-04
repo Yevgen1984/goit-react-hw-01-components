@@ -1,7 +1,7 @@
-import Proptypes from 'prop-types';
+// import Proptypes from 'prop-types';
 
-export const StatisticDate = ({data}) => {
-    return 
+// export const StatisticDate = ({data}) => {
+//     return 
 
-    }
-}
+//     }
+// }
